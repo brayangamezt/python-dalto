@@ -1,3 +1,5 @@
+from functools import reduce
+
 numbers = [10, 4, 11, 6, 9]
 number_boolean = 12.5874
 
@@ -64,3 +66,4 @@ print(list(new_composer_names))
 ages = [5, 12, 17, 18, 24, 32]
 major = filter(lambda x: x >= 18, ages)
 print(list(major))
+

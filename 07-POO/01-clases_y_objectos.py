@@ -14,3 +14,10 @@ celular3_camara = '48MP'
 # Tuvimos que utilizar 9 lineas de codigo para esto por o que no es viable hacerlo
 # Para evitar esto podemos utilizar las POO que sirven para ahorra y mantener codigo utilizando tambien clases
 
+
+
+class Celular:
+    def __init__(self, marca, modelo, camara): # Contructor de la clase
+        self.marca = marca
+        self.modelo = modelo
+        self.camara = camara
